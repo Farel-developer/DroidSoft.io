@@ -1,0 +1,46 @@
+
+.side-bar--container{
+    position: fixed;
+    width: auto;
+    height: 20px;
+    top: 0;
+    right: 0;
+}
+
+.gcse-searchresults{
+  position: fixed;
+}
+
+#side_btn{
+    position: relative;
+    padding: 10px 0.5rem;
+    background: transparent;
+    border: none;
+}
+
+.line1,.line2,.line3{
+    position: relative;
+    width: 20px;
+    height: 5px;
+    background: white;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.3s;
+    box-shadow: 0 0 4px black;
+}
+
+.active.line1{
+    transform: rotate(50deg) translateY(10px) translateX(5px);
+    background: orangered;
+}
+
+.active.line2{
+    transform: translateX(200%);
+    background: orangered;
+    opacity: 0%;
+}
+
+.active.line3{
+    transform: rotate(-50deg) translateY(-10px) translateX(5px);
+    background: orangered;
+}
